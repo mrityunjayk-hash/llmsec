@@ -1,0 +1,13 @@
+[project]
+name = "llmsec"
+version = "0.1.0"
+description = "Security tester for LLM-powered apps (prompt injection, leakage, tool abuse)"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+llmsec = "llmsec.cli:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
